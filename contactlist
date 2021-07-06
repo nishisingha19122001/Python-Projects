@@ -1,0 +1,20 @@
+howManyContact = 3
+
+contactDit = {}
+
+for i in range(howManyContact):
+    name = input("Ënter Name " )
+    number1 = input("Ënter number1 " )
+    number2 = input("Ënter number2 " )
+    imageUrl = input("Ënter imageUrl " )
+    email = input("Ënter email " )
+    website = input("Ënter website " )
+
+    contactDit[name] = {
+    "name":name,
+    "number1":number1,
+    "number2":number2,
+    "imageUrl":imageUrl,
+    "email":email,
+    "website":website
+    }
